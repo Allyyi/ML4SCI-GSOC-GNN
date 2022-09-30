@@ -13,28 +13,20 @@ A Google Summer of Code 2022 Project Repository.<br>The End-to-End Deep Learning
 
 </div>
 
-## Informations
-
-| **Orgaization**     | **[Machine Learning for Science (ML4SCI)](https://ml4sci.org/)** |
-| ------------- | ------------- |
+## Information
+| Item                | Link                                                         |
+| ------------------- | ------------------------------------------------------------ |
+| **Organization**    | **[Machine Learning for Science (ML4SCI)](https://ml4sci.org/)** |
 | **Contributor**     | **[Xin Yi](https://allyyi.github.io/yixin.github.io/)**      |
 | **Project Details** | **[Organization Project Page](https://ml4sci.org/gsoc/2022/proposal_E2E2.html)<br />[Accepted Proposal](https://summerofcode.withgoogle.com/media/user/6019c1356d80/proposal/gAAAAABjNlDvurSduPezYoiLag8E7iQnSfq7lRuGNkyRpN9H86AnUisuv2x0We7X0kR7fjcFRG6cXEv6G7oE8r8g0Ny-GhhFxG6NnCAMqHUmuKTr1S2bk8E=.pdf)<br />[GSOC Project Page](https://summerofcode.withgoogle.com/programs/2022/projects/MB5Hx1cQ)** |
-## How to Use
-
-### 
-
 
 ## Results
 
-| Notebook Version Name  | Model Configuration | Num. Trainable Params | Test AUC |
-| ------------- | ------------- | :-------------: | :-------------: |
-| Graph Attention          |  |  |  |
-| Graph Convolution |  |                       |          |
-| Graph SAGE |  |                       |          |
-| Dynamic Edge Convolution |  |                       |          |
-| Classical CNN            |  |                       |          |
-
-
-## References
-[1] 
+| Notebook Version Name    | Graph Representation              |  Test AUC   |
+| ------------------------ | --------------------------------- | :---------: |
+| Graph Attention          | K Nearest neighbors(k=25)         |   0.8279    |
+| Graph Convolution        | K Nearest neighbors(k=15)         |   0.8593    |
+| Graph SAGE               | K Nearest neighbors(k=15)         |   0.8624    |
+| Dynamic Edge Convolution | Dynamic K Nearest neighbors(k=20) |   0.8627    |
+| Classical CNN            | Image Data                        | Overfitting |
 
